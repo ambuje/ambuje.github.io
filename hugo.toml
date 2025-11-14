@@ -10,7 +10,6 @@ theme = 'PaperMod'
 
 [params]
   description = "Personal portfolio and blog"
-  author = "Your Name"
   showReadingTime = true
   showShareButtons = true
   showPostNavLinks = true
