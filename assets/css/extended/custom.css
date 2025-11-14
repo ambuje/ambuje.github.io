@@ -1,17 +1,11 @@
-/* Reduce header/navigation spacing */
-.nav {
-    padding: 0.3rem 0 !important;
-    margin: 0 !important;
-}
-
-header {
-    padding: 0.3rem 0 !important;
-    margin-top: 0 !important;
-}
-
+/* Add underlines to navigation links */
 #menu a {
-    font-size: 0.9rem !important;
-    padding: 0.3rem 0.8rem !important;
+    text-decoration: underline !important;
+}
+
+#menu a:hover {
+    text-decoration: underline !important;
+    opacity: 0.7;
 }
 
 /* Reduce the main page header/banner size */
@@ -38,8 +32,8 @@ header {
 
 .post-entry .entry-header h2 {
     font-size: 0.9rem !important;
-    line-height: 1.4 !important;
-    margin-bottom: 0.5rem !important;
+    line-height: 0.5 !important;
+    margin-bottom: 0.1rem !important;
 }
 
 .post-entry .entry-content {
